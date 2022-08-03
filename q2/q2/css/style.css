@@ -1,82 +1,20 @@
 @charset "UTF-8";
 /* 回答はここから */
-/*Q1-1*/
-/*text-align*/
-.box1{
-  background: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.box2{
-  display: inline-block;
-  background: #a4b3e9;
-  width: 90px;
-  padding: 10px;
-}
-.text-align{
-  text-align:center;
-  font-size: 16px;
-}
-/*margin*/
-.box3{
-  padding:20px;
-  background:#fff;
-  margin: 0 auto;
-}
-
-.box4{
-  background: #a4b3e9;
-  padding: 10px;
-  width: 90px;
-  margin: 0 auto;
-}
-.text-margin{
-  font-size: 16px;
-  text-align: center;
-}
-
-/*Q1-2*/
-/*table*/
-.table{
-  display:table;
-}
-.table-cell{
-  display: table-cell;
-  text-align:center;
-  vertical-align: middle;
-}
-.text-table{
-  font-size: 16px;
-  padding: 10px;
-  display: inline-block;
-  background: #fff;
-}
-
-/*flex*/
-.flex{
+.list{
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.text-flex{
-  font-size: 16px;
-  background: #fff;
-  padding:10px;
-  display: inline-block;
 }
 
-/*position*/
-.container{
-  position: relative;
-}
-.text-position{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background: #a4b3e9;
+.card{
+  list-style: none;
+  width:200px;
+  outline: 10px solid #655;
+  box-shadow:0 0 0 6px #655;
+  border-radius: 13px;
+  background: #d2b48c;
   padding:10px;
-  text-align:center;
-  width: 90px;
+  margin-left: 60px;
+}
+.card:first-child{
+  margin-left:0;
 }
